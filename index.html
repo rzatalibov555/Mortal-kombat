@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body onmousemove="themeSong()" >
+    <audio loop src="mp3/theme.mp3" id="audio0"></audio>
+    <audio src="mp3/sound.mp3" id="audio1"></audio>
+    <audio src="" id="audio"></audio>
+    
+    <div class="wrapper">
+      <div onmouseenter="sound()" class="choose-window">
+        <h1 class="title">Choose your fighter</h1>
+        <div class="characters">
+
+          <div class="character">
+            <img onclick="ch1()" id="char1" src="img/char1.png" alt="">
+          </div>
+          <div class="character">
+            <img onclick="ch2()" id="char2" src="img/char2.png" alt="">
+          </div>
+          <div class="logo">
+            <img src="img/logo.png" alt="">
+          </div>
+          <div class="character">
+            <img onclick="ch3()" id="char3" src="img/char3.png" alt="">
+          </div>
+          <div class="character"> 
+            <img onclick="ch4()" id="char4" src="img/char4.png" alt="">
+          </div>
+          <div class="character">
+            <img onclick="ch5()" id="char5" src="img/char5.png" alt="">
+          </div>
+          <div class="character">
+            <img onclick="ch6()" id="char6" src="img/char6.png" alt="">
+          </div>
+          <div class="character">
+            <img onclick="ch7()" id="char7" src="img/char7.png" alt="">
+          </div>
+          
+        </div>
+        <h3 class="subtitle">free  &nbsp; play</h3>
+        <img src="" alt="" class="choosen-char" id="choosen-char">
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<script src="js/index.js"></script>
